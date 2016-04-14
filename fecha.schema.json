@@ -1,0 +1,26 @@
+{
+	"id":"http://schemas.caem.gob.cl/run.schema.json",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Comment describing your JSON Schema",
+	
+	"definitions": {
+		"fechaValida": {
+			"type": "string",
+			"pattern": "[0-9]{2}-[0-9]{2}-[0-9]{4}"
+		},
+		"fechaTruncada":{
+			"type": "string"
+		},
+		"fechaHoraValida": {
+			"type": "string",
+			"format": "date-time"
+		},
+		"fechaAgnoMes": {
+			"type":"string",
+			"pattern": "/^[0-9]{6}$/"
+		},
+		"fechaUNIX": {
+			"type": "number"
+		}
+	}
+}

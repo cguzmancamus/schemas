@@ -1,0 +1,34 @@
+{
+	"id": "http://schemas.caem.gob.cl/",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Esquema información personal",
+	"type": "object",
+	"properties": {
+		"run": {
+			"$ref": "run.schema.json#/definitions/runType"
+		},
+		"nombreCompleto": {
+			"$ref": "nombre.schema.json#/definitions/nameType"
+		},
+		"fechaNacimiento": {
+			"$ref": "fecha.schema.json#/definitions/fechaValida"
+		},
+		"fechaDefuncion": {
+			"$ref": "fecha.schema.json#/definitions/fechaValida"
+		},
+		"estadoCivil": {
+			"$ref": "estadoCivil.schema.json#/definitions/estadoCivilValores"
+		},
+		"sexo": {
+			"$ref": "sexo.schema.json#/definitions/sexo"
+		}
+	},
+	"required": [
+		"run",
+		"nombreCompleto",
+		"fechaNacimiento",
+		"estadoCivil",
+		"sexo"
+	],
+	"additionalProperties": false
+}

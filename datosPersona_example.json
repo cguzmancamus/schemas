@@ -1,0 +1,14 @@
+{
+	"nombreCompleto": {
+		"nombres": "Carlos Leonardo Santiago",
+		"apellidoPaterno": "Guzmán",
+		"apellidoMaterno": "Camus"
+	},
+	"run": {
+		"numero": 1,
+		"dv": "9"
+	},
+	"estadoCivil": "C",
+	"fechaNacimiento": "19-12-1983",
+	"sexo": "M"
+}

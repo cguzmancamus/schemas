@@ -1,0 +1,27 @@
+{
+	"id":"http://schemas.caem.gob.cl/run.schema.json",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"runType": {
+			"type": "object",
+			"properties": {
+				"numero": {
+					"type": "integer",
+					"maximum": 99999999,
+					"minimum": 0
+				},
+				"dv": {
+					"type": "string",
+					"maxLength": 1,
+					"minLength": 1,
+					"pattern": "([0-9]{1}|k|K)"
+				}
+			},
+			"required": [
+				"numero",
+				"dv"
+			],
+			"additionalProperties": false
+		}
+	}
+}

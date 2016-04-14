@@ -1,0 +1,24 @@
+{
+	"id":"http://schemas.caem.gob.cl/run.schema.json",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Define los campos que componen al elemnto nombre",
+	
+	"definitions": {
+		"nameType":{
+			"type": "object",
+			"properties": {
+				"nombres":{
+					"type": "string"
+				},
+				"apellidoPaterno": {
+					"type": "string"
+				},
+				"apellidoMaterno":{
+					"type": "string"
+				}
+			},
+			"additionalProperties": false,
+			"required": ["nombres","apellidoPaterno"]
+		}
+	}
+}
