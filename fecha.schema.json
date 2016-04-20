@@ -1,5 +1,5 @@
 {
-	"id":"http://schemas.caem.gob.cl/run.schema.json",
+	"id":"http://caem.modernizacion.gob.cl/fecha.schema.json",
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"description": "Comment describing your JSON Schema",
 	

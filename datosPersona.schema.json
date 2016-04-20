@@ -1,5 +1,5 @@
 {
-	"id": "http://schemas.caem.gob.cl/",
+	"id": "http://caem.modernizacion.gob.cl/datosPersona.schema.json",
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"description": "Esquema información personal",
 	"type": "object",

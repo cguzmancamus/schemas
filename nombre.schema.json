@@ -1,5 +1,5 @@
 {
-	"id":"http://schemas.caem.gob.cl/run.schema.json",
+	"id":"http://caem.modernizacion.gob.cl/nombre.schema.json",
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"description": "Define los campos que componen al elemnto nombre",
 	
